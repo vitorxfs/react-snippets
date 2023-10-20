@@ -2,7 +2,7 @@
 
 A simple but powerful react typescript snippets extension
 
-![Component snippet demonstration](assets/rcomp.gif)
+![Component snippet demonstration](https://raw.githubusercontent.com/vitorxfs/react-snippets/main/assets/rcomp.gif)
 
 ## Features
 
@@ -14,10 +14,10 @@ A simple but powerful react typescript snippets extension
 - `rumemo`: useMemo
 - `runmount`: useEffect with return function (unmount)
 
-![Hook snippet demonstration](assets/rustate_ruef.gif)
+![Hook snippet demonstration](https://raw.githubusercontent.com/vitorxfs/react-snippets/main/assets/rustate_ruef.gif)
 
 ## Usage
 
 1. Install the extension
-2. Open a `.tsx` file and type one of the snippets above
+2. Open a `.tsx` file and type one of the snippets abov
 3. You can use `tab` to navigate between fields
