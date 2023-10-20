@@ -1,0 +1,93 @@
+{
+  "React Typescript Component": {
+    "prefix": "rcomp",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export interface ${1:Component}Props { }",
+      "",
+      "export const ${1:Component}: React.FC<${1:Component}Props> = ({}) => {",
+      "  return (<></>);",
+      "};",
+      "",
+      "${1:Component}.defaultProps = {};",
+      "",
+      "export default ${1:Component};",
+      ""
+    ],
+    "description": "React Typescript component snippet"
+  },
+  "React Typescript Container Component": {
+    "prefix": "rcont",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export interface ${1:Component}Props {",
+      "  children: React.ReactNode;"
+      "}",
+      "",
+      "export const ${1:Component}: React.FC<${1:Component}Props> = ({",
+      "  children,",
+      "}) => {",
+      "  return (",
+      "    <div>",
+      "      {children}",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "${1:Component}.defaultProps = {};",
+      "",
+      "export default ${1:Component};",
+      ""
+    ],
+    "description": "React Typescript cointainer component snippet"
+  },
+  "React Map": {
+    "prefix": "rmap",
+    "body": [
+      "{${1}.map((${2}) => (",
+      "  ${3}"
+      "))}"
+    ],
+    "description": "React map snippet"
+  },
+  "React useEffect": {
+    "prefix": "ruef",
+    "body": [
+      "useEffect(() => {",
+      "  ${1}",
+      "}, [${2}]);",
+      ""
+    ],
+    "description": "React useEffect snippet"
+  },
+  "React useEffect with Return": {
+    "prefix": "runmount",
+    "body": [
+      "useEffect(() => {",
+      "  return () => {",
+      "    ${1}",
+      "  }",
+      "}, []);",
+      ""
+    ],
+    "description": "React useEffect snippet"
+  },
+  "React useState": {
+    "prefix": "rustate",
+    "body": [
+      "const [${1}, set${1/(^.)/${1:/upcase}/}] = useState(${2});",
+      ""
+    ],
+    "description": "React useState snippet"
+  },
+  "React useMemo": {
+    "prefix": "rumemo",
+    "body": [
+      "const ${1} = useMemo(() => ${2}, [${3}]);",
+      ""
+    ],
+    "description": "React useMemo snippet"
+  }
+}
