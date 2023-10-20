@@ -3,6 +3,10 @@
   "displayName": "react-snippets",
   "description": "A typescript react snippets extension",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitorxfs/react-snippets.git"
+  } ,
   "engines": {
     "vscode": "^1.83.0"
   },
