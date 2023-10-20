@@ -1,12 +1,13 @@
 {
-  "name": "react-snippets",
-  "displayName": "react-snippets",
+  "name": "@vitorsanches/react-snippets",
+  "displayName": "React Snippets",
   "description": "A typescript react snippets extension",
   "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/vitorxfs/react-snippets.git"
-  } ,
+  },
+  "publisher": "vitorsanches",
   "engines": {
     "vscode": "^1.83.0"
   },
