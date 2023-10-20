@@ -16,5 +16,12 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "vitest": "^0.34.6"
   }
 }

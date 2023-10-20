@@ -23,7 +23,7 @@
       "import React from 'react';",
       "",
       "export interface ${1:Component}Props {",
-      "  children: React.ReactNode;"
+      "  children: React.ReactNode;",
       "}",
       "",
       "export const ${1:Component}: React.FC<${1:Component}Props> = ({",
@@ -47,7 +47,7 @@
     "prefix": "rmap",
     "body": [
       "{${1}.map((${2}) => (",
-      "  ${3}"
+      "  ${3}",
       "))}"
     ],
     "description": "React map snippet"
