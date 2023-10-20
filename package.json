@@ -1,6 +1,6 @@
 {
-  "name": "@vitorsanches/react-snippets",
-  "displayName": "React Snippets",
+  "name": "vitorxfs-react-snippets",
+  "displayName": "@vitorxfs React Snippets",
   "description": "A typescript react snippets extension",
   "version": "0.0.1",
   "repository": {
