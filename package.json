@@ -2,7 +2,7 @@
   "name": "vitorxfs-react-snippets",
   "displayName": "@vitorxfs React Snippets",
   "description": "A typescript react snippets extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/vitorxfs/react-snippets.git"
@@ -18,6 +18,10 @@
     "snippets": [
       {
         "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
